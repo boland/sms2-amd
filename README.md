@@ -4,7 +4,7 @@ An [AMD module](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) co
 
 ## Usage
 
-See pairwise\_align.js for an example alignment function that uses AlignPairLinear.
+See [pairwise\_align.js](https://github.com/boland/sms2-amd/blob/master/pairwise_align.js) for an example alignment function that uses AlignPairLinear.
 
 ```javascript
 define(['path/to/pairwise_align'],function(pairwise_align) {
