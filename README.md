@@ -15,3 +15,6 @@ define(['path/to/pairwise_align'],function(pairwise_align) {
 });
 ```
 
+## License
+
+Please see the original sms2 [LICENSE](https://github.com/boland/sms2-amd/blob/master/LICENSE) file.
