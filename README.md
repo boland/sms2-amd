@@ -7,12 +7,11 @@ An [AMD module](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) co
 See [pairwise\_align.js](https://github.com/boland/sms2-amd/blob/master/pairwise_align.js) for an example alignment function that uses AlignPairLinear.
 
 ```javascript
-define(['path/to/pairwise_align'],function(pairwise_align) {
-  alignment = pairwise.align("AGTACGTAC","GTAC")
-  console.log(alignment.getAlignedM())
-  console.log(alignment.getAlignedN())
-  console.log(alignment.score)
-});
+pairwise = require('path/to/pairwise_align');
+alignment = pairwise.align("AGTACGTAC","GTAC")
+console.log(alignment.getAlignedM())
+console.log(alignment.getAlignedN())
+console.log(alignment.score)
 ```
 
 ## License
